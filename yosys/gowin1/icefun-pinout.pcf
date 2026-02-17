@@ -1,0 +1,8 @@
+
+set_io test[0]  D3
+set_io test[1]  C3
+set_io test[2]  A1
+set_io test[3]  A2
+set_io test[4]  A3
+
+set_io sys_clk  P7
