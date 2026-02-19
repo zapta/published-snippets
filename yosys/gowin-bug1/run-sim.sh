@@ -5,8 +5,10 @@
 # Stop on first error.
 set -e
 
-# Set the Yosys env.
-source /Users/user/.apio/packages/oss-cad-suite/environment
+# Set the Yosys env if needed.
+if [ -z "${VIRTUAL_ENV:-}" ]; then
+  source /Users/user/.apio/packages/oss-cad-suite/environment
+fi
 
 # Prepare an empty output dir
 rm -rf _build/tang9k
