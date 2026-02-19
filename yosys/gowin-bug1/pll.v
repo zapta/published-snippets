@@ -11,11 +11,15 @@
  * Achieved output frequency:    3.375 MHz
  */
 
+
 module pll (
     input  clock_in,
     output clock_out,
     output locked
 );
+
+ `ifdef SYNTHESIS
+
 
   rPLL #(
       .FCLKIN("27.0"),
@@ -39,5 +43,12 @@ module pll (
       .CLKOUT(clock_out),  // 3.375 MHz
       .LOCK(locked)
   );
+
+`else
+
+assign clock_out = clock_in;
+assign locked = 1'b1;
+
+`endif
 
 endmodule

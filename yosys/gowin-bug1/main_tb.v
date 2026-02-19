@@ -15,7 +15,7 @@ module main_tb;
   // DUT instantiation
   main #(
       .DEPTH(256),
-      .WIDTH(8)
+      .DATA_WIDTH(8)
   ) main (
       .ext_clk(ext_clk),
       .test()

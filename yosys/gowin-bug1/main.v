@@ -3,7 +3,7 @@
 module main #(
     // parameter integer DEPTH = 512,  // Fifo depth 
     parameter integer DEPTH = 256,  // Fifo depth 
-    parameter integer WIDTH = 8  // Fifo width
+    parameter integer DATA_WIDTH = 8  // Fifo width
 ) (
     input ext_clk,
     output [7:0] test
@@ -15,8 +15,8 @@ module main #(
   // Slow the 27mhz to about 4Mhz to easy logic analyzer logging.
   pll pll (
       .clock_in(ext_clk),
-      . clock_out(sys_clk),
-      .   locked(pll_locked)
+      .clock_out(sys_clk),
+      .locked(pll_locked)
   );
 
   // Generates sys_reset high for the first 10 clocks.
@@ -54,11 +54,11 @@ module main #(
 
   // Fifo write signals.
   wire full;
-  reg [WIDTH-1:0] din;
+  reg [DATA_WIDTH-1:0] din;
 
   // Fifo read signals.
   wire empty;
-  wire [WIDTH-1:0] dout;
+  wire [DATA_WIDTH-1:0] dout;
 
   // Indicates if an additional byte is available for reading.
   wire rd_avail = !empty;
@@ -80,7 +80,7 @@ module main #(
   // Async fifo from 
   // https://github.com/HarshitP2006/Dual-Clock-Asynchronous-FIFO-Verilog
   async_fifo #(
-      .DATA_WIDTH(WIDTH),
+      .DATA_WIDTH(DATA_WIDTH),
       .DEPTH(DEPTH)
   ) async_fifo (
       .wr_clk(sys_clk),

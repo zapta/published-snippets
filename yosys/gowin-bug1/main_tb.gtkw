@@ -1,11 +1,25 @@
-# GTKWave display configuration for 'apio sim main_tb.v'
-# THIS FILE WAS GENERATED AUTOMATICALLY BY APIO.
-# DO NOT EDIT IT MANUALLY!
-# To customize this file, run 'apio sim main_tb.v'
-# and save the file from GTKWave.
-
-[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
-
 [*]
-main_tb.clk_num[31:0]
-main_tb.ext_clk
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Feb 18 20:19:52 2026
+[*]
+[dumpfile] "/Volumes/projects/published-snippets/repo/yosys/gowin-bug1/_build/tang9k/main_tb.vcd"
+[dumpfile_mtime] "Wed Feb 18 20:19:26 2026"
+[dumpfile_size] 143591
+[savefile] "/Volumes/projects/published-snippets/repo/yosys/gowin-bug1/main_tb.gtkw"
+[timestart] 4836100
+[size] 1112 600
+[pos] 181 0
+*-16.592129 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main_tb.
+[treeopen] main_tb.main.
+[treeopen] main_tb.main.pll.
+[sst_width] 253
+[signals_width] 87
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@420
+main_tb.clk_num
+@28
+main_tb.main.sys_clk
+[pattern_trace] 1
+[pattern_trace] 0
