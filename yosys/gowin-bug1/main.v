@@ -1,12 +1,16 @@
 // Testing writing at full speed to an FTDI sync fifo.
 
 module main #(
-    // parameter integer DEPTH = 512,  // Fifo depth 
-    parameter integer DEPTH = 256,  // Fifo depth 
-    parameter integer DATA_WIDTH = 8  // Fifo width
+    parameter integer DEPTH = 256,     // Fifo depth
+    parameter integer DATA_WIDTH = 8   // Fifo width
 ) (
     input ext_clk,
-    output [7:0] test
+
+    // Probes for testing.
+    output probe_sync,     // Sync oscilloscope of negative edge
+    output probe_clk,      // D-reg clock (rising edge)
+    output prob_data_en,   // D-reg enable
+    output probe_data_out  // D-reg output
 );
 
   wire sys_clk;
@@ -97,8 +101,14 @@ module main #(
       .empty(empty),
       .almost_empty(),
 
-      .probe(probe)
+      // Probes for testing
+      .probe_clk(probe_clk),
+      .prob_data_en(prob_data_en),
+      .probe_data_out(probe_data_out)
   );
+
+  assign probe_sync = rd_txe;
+
 
   // Increment din on each write to the fifo to
   // generate a consecutive byte pattern.
@@ -112,13 +122,13 @@ module main #(
   end
 
   // Test outputs.
-  assign test[7] = sys_clk;
-  assign test[6] = rd_txe;
-  assign test[5] = rd_en;
-  assign test[4] = dout[0];
+  // assign test[7] = sys_clk;
+  // assign test[6] = rd_txe;
+  // assign test[5] = rd_en;
+  // assign test[4] = dout[0];
 
-  assign test[3] = probe[0];
-  assign test[2] = probe[1];
-  assign test[1] = probe[2];
-  assign test[0] = 1'b0;
+  // assign test[3] = probe[0];
+  // assign test[2] = probe[1];
+  // assign test[1] = probe[2];
+  // assign test[0] = 1'b0;
 endmodule
