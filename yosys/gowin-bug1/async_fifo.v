@@ -89,14 +89,16 @@ module async_fifo #(
 
   // ---------------- READ DOMAIN ----------------
 
+  wire data_enable = (rd_en && !empty);
+
   // Test probes that are connected to external pads.
   assign probe_clk = rd_clk;
-  assign prob_data_en = (rd_en && !empty);
+  assign prob_data_en = data_enable;
   assign probe_data_out = dout[0];
 
   // Read data directly using CURRENT read pointer
   always @(posedge rd_clk) begin
-    if (rd_en && !empty) dout <= mem[rd_bin[ADDR_WIDTH-1:0]];
+    if (data_enable) dout <= mem[rd_bin[ADDR_WIDTH-1:0]];
   end
 
   // Update read pointer
