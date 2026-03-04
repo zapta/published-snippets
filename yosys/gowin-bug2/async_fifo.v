@@ -95,17 +95,16 @@ module async_fifo #(
   wire [ADDR_WIDTH-1:0] mem_rd_address = rd_bin[ADDR_WIDTH-1:0];
   wire [7:0] mem_rd_data = mem[mem_rd_address];
 
-
   // Test probes that are connected to external pads.
   assign probe_clk = rd_clk;
   assign probe_data_en = data_enable;
   assign probe_data_out = dout[0];
 
-  // Option 1: do not export A0, D0.
+  // Option 1: do not export A0, D0. This option exhibits the issue.
   // assign probe_mem_rd_a0 = 1'b0;
   // assign probe_mem_rd_d0 = 1'b0;
 
-  // Option 2: Export A0, D0, as external signals.
+  // Option 2: Export A0, D0, as external signals. This option works.
   assign probe_mem_rd_a0 = mem_rd_address[0];
   assign probe_mem_rd_d0 = mem_rd_data[0];
 
