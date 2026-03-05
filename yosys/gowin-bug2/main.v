@@ -11,7 +11,6 @@ module main #(
     output probe_clk,        // D-reg clock (rising edge)
     output prob_data_en,     // D-reg enable
     output probe_data_out,   // D-reg output
-    output probe_mem_rd_a0,  // Mem read address bit 0
     output probe_mem_rd_d0   // Mem read data bit 0
 );
 
@@ -101,7 +100,6 @@ module main #(
       .probe_clk(probe_clk),
       .probe_data_en(prob_data_en),
       .probe_data_out(probe_data_out),
-      .probe_mem_rd_a0(probe_mem_rd_a0),
       .probe_mem_rd_d0(probe_mem_rd_d0)
   );
 

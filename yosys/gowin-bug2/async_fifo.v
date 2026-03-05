@@ -20,7 +20,6 @@ module async_fifo #(
     output probe_clk,        // 3.375 Mhz
     output probe_data_en,    // D-reg enable
     output probe_data_out,   // D-reg output
-    output probe_mem_rd_a0,  // Mem read address bit 0
     output probe_mem_rd_d0   // Mem read data bit 0
 );
 
@@ -101,12 +100,10 @@ module async_fifo #(
   assign probe_data_out = dout[0];
 
   // Option 1: do not export A0, D0. This option exhibits the issue.
-  // assign probe_mem_rd_a0 = 1'b0;
-  // assign probe_mem_rd_d0 = 1'b0;
+  assign probe_mem_rd_d0 = 1'b0;
 
   // Option 2: Export A0, D0, as external signals. This option works.
-  assign probe_mem_rd_a0 = mem_rd_address[0];
-  assign probe_mem_rd_d0 = mem_rd_data[0];
+  // assign probe_mem_rd_d0 = mem_rd_data[0];
 
   // Read data directly using CURRENT read pointer
   always @(posedge rd_clk) begin
