@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Mar  6 21:54:04 2026
+[*]
+[dumpfile] "/Volumes/projects/published-snippets/repo/yosys/gowin-bug3/_build/tang9k/main_tb.vcd"
+[dumpfile_mtime] "Fri Mar  6 21:50:38 2026"
+[dumpfile_size] 21890
+[savefile] "/Volumes/projects/published-snippets/repo/yosys/gowin-bug3/main_tb.gtkw"
+[timestart] 0
+[size] 1112 600
+[pos] 181 0
+*-17.471743 4830000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main_tb.
+[treeopen] main_tb.main.
+[sst_width] 253
+[signals_width] 210
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@420
+main_tb.clk_num
+@28
+main_tb.main.sys_clk
+@200
+-
+-
+@28
+main_tb.probe_clk
+main_tb.probe_sync
+[color] 3
+main_tb.probe_data_out
+@200
+-
+@22
+main_tb.main.sys_reset_counter[3:0]
+@28
+main_tb.main.sys_reset
+@23
+main_tb.main.wr_addr[7:0]
+@22
+main_tb.main.wr_data[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

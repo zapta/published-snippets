@@ -1,0 +1,16 @@
+
+// On board 27Mhz clock.
+IO_LOC  "sys_clk"  52;
+IO_PORT "sys_clk"  PULL_MODE=UP IO_TYPE=LVCMOS33;
+
+// Test probes .
+IO_LOC  "probe_clk"      38;
+IO_LOC  "probe_rd_en"     37;
+IO_LOC  "probe_mem_out"  36;
+IO_LOC  "probe_reg_out"  39;
+
+IO_PORT "probe_clk"      PULL_MODE=UP  IO_TYPE=LVCMOS33;
+IO_PORT "probe_rd_en"    PULL_MODE=UP  IO_TYPE=LVCMOS33;
+IO_PORT "probe_mem_out"  PULL_MODE=UP  IO_TYPE=LVCMOS33;
+IO_PORT "probe_reg_out"  PULL_MODE=UP  IO_TYPE=LVCMOS33;
+
