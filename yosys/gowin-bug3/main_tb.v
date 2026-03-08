@@ -20,8 +20,7 @@ module main_tb;
 
   // DUT instantiation
   main #(
-      .ADDR_WIDTH(8),
-      .DATA_WIDTH(8)
+      .ADDR_WIDTH(8)
   ) main (
       .sys_clk(sys_clk),
 
