@@ -35,7 +35,7 @@ module main #(
   reg [7:0] mem[00:2**ADDR_WIDTH-1];
 
   assign probe_clk = sys_clk;
-  assign probe_rd_en = wr_data[ADDR_WIDTH-1];
+  // assign probe_rd_en = wr_data[ADDR_WIDTH-1];
   // assign probe_mem_out = mem[rd_addr][0];
   assign probe_mem_out =0;
   assign probe_reg_out = rd_data[0];
@@ -51,9 +51,9 @@ module main #(
     end
   end
 
-  wire rd_en = wr_data[5];
+  assign probe_rd_en = wr_data[5];
   always @(posedge sys_clk) begin
-    if (rd_en) begin
+    if (probe_rd_en) begin
       rd_data <= mem[rd_addr];
       rd_addr <= (rd_addr + 1) & 1;
     end

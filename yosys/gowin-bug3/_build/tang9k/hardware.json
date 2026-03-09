@@ -18254,11 +18254,31 @@
           },
           "connections": {
             "CLK": [ 19 ],
+            "D": [ 18 ],
+            "Q": [ 25 ]
+          }
+        },
+        "mem.0.0_DIA_1_DFF_Q_3": {
+          "hide_name": 0,
+          "type": "DFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:13.6-13.47"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 19 ],
             "D": [ 75 ],
             "Q": [ 24 ]
           }
         },
-        "mem.0.0_DIA_1_DFF_Q_3": {
+        "mem.0.0_DIA_1_DFF_Q_4": {
           "hide_name": 0,
           "type": "DFF",
           "parameters": {
@@ -18278,7 +18298,7 @@
             "Q": [ 23 ]
           }
         },
-        "mem.0.0_DIA_1_DFF_Q_4": {
+        "mem.0.0_DIA_1_DFF_Q_5": {
           "hide_name": 0,
           "type": "DFF",
           "parameters": {
@@ -18298,7 +18318,7 @@
             "Q": [ 22 ]
           }
         },
-        "mem.0.0_DIA_1_DFF_Q_5": {
+        "mem.0.0_DIA_1_DFF_Q_6": {
           "hide_name": 0,
           "type": "DFF",
           "parameters": {
@@ -19069,7 +19089,7 @@
             "O": "output"
           },
           "connections": {
-            "I": [ 73 ],
+            "I": [ 18 ],
             "O": [ 4 ]
           }
         },
@@ -19149,7 +19169,7 @@
           "hide_name": 0,
           "type": "LUT3",
           "parameters": {
-            "INIT": "11001010"
+            "INIT": "11100010"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -19164,145 +19184,8 @@
           "connections": {
             "F": [ 113 ],
             "I0": [ 46 ],
-            "I1": [ 80 ],
-            "I2": [ 82 ]
-          }
-        },
-        "rd_en_DFFE_Q": {
-          "hide_name": 0,
-          "type": "DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:44.3-52.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:19.7-19.56"
-          },
-          "port_directions": {
-            "CE": "input",
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CE": [ 115 ],
-            "CLK": [ 19 ],
-            "D": [ 116 ],
-            "Q": [ 18 ]
-          }
-        },
-        "rd_en_DFFE_Q_CE_MUX2_LUT5_O": {
-          "hide_name": 0,
-          "type": "MUX2_LUT5",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:154.14-154.54"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "O": "output",
-            "S0": "input"
-          },
-          "connections": {
-            "I0": [ 117 ],
-            "I1": [ 118 ],
-            "O": [ 115 ],
-            "S0": [ 119 ]
-          }
-        },
-        "rd_en_DFFE_Q_CE_MUX2_LUT5_O_I0_LUT1_F": {
-          "hide_name": 0,
-          "type": "LUT1",
-          "parameters": {
-            "INIT": "00"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:152.41-152.66|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input"
-          },
-          "connections": {
-            "F": [ 117 ],
-            "I0": [ 7 ]
-          }
-        },
-        "rd_en_DFFE_Q_D_ALU_SUM": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 120 ],
-            "COUT": [ 121 ],
-            "I0": [ 7 ],
-            "I1": [ 18 ],
-            "I3": [ 17 ],
-            "SUM": [ 116 ]
-          }
-        },
-        "rd_en_DFFE_Q_D_ALU_SUM_COUT_ALU_CIN": {
-          "hide_name": 0,
-          "type": "ALU",
-          "parameters": {
-            "ALU_MODE": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
-          },
-          "port_directions": {
-            "CIN": "input",
-            "COUT": "output",
-            "I0": "input",
-            "I1": "input",
-            "I3": "input",
-            "SUM": "output"
-          },
-          "connections": {
-            "CIN": [ 121 ],
-            "COUT": [ 122 ],
-            "I0": [ 7 ],
-            "I1": [ 74 ],
-            "I3": [ 17 ],
-            "SUM": [ 123 ]
-          }
-        },
-        "rd_en_DFF_D": {
-          "hide_name": 0,
-          "type": "DFF",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:13.6-13.47"
-          },
-          "port_directions": {
-            "CLK": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLK": [ 19 ],
-            "D": [ 18 ],
-            "Q": [ 25 ]
+            "I1": [ 82 ],
+            "I2": [ 80 ]
           }
         },
         "sys_clk_IBUF_I": {
@@ -19339,9 +19222,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 124 ],
+            "D": [ 115 ],
             "Q": [ 66 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_1": {
@@ -19361,9 +19244,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 125 ],
+            "D": [ 117 ],
             "Q": [ 67 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_1_D_ALU_SUM": {
@@ -19385,12 +19268,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 126 ],
-            "COUT": [ 127 ],
+            "CIN": [ 118 ],
+            "COUT": [ 119 ],
             "I0": [ 7 ],
             "I1": [ 67 ],
             "I3": [ 17 ],
-            "SUM": [ 125 ]
+            "SUM": [ 117 ]
           }
         },
         "wr_addr_DFFR_Q_2": {
@@ -19410,9 +19293,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 128 ],
+            "D": [ 120 ],
             "Q": [ 68 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_2_D_ALU_SUM": {
@@ -19434,12 +19317,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 129 ],
-            "COUT": [ 126 ],
+            "CIN": [ 121 ],
+            "COUT": [ 118 ],
             "I0": [ 7 ],
             "I1": [ 68 ],
             "I3": [ 17 ],
-            "SUM": [ 128 ]
+            "SUM": [ 120 ]
           }
         },
         "wr_addr_DFFR_Q_3": {
@@ -19459,9 +19342,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 130 ],
+            "D": [ 122 ],
             "Q": [ 69 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_3_D_ALU_SUM": {
@@ -19483,12 +19366,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 131 ],
-            "COUT": [ 129 ],
+            "CIN": [ 123 ],
+            "COUT": [ 121 ],
             "I0": [ 7 ],
             "I1": [ 69 ],
             "I3": [ 17 ],
-            "SUM": [ 130 ]
+            "SUM": [ 122 ]
           }
         },
         "wr_addr_DFFR_Q_4": {
@@ -19508,9 +19391,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 132 ],
+            "D": [ 124 ],
             "Q": [ 70 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_4_D_ALU_SUM": {
@@ -19532,12 +19415,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 133 ],
-            "COUT": [ 131 ],
+            "CIN": [ 125 ],
+            "COUT": [ 123 ],
             "I0": [ 7 ],
             "I1": [ 70 ],
             "I3": [ 17 ],
-            "SUM": [ 132 ]
+            "SUM": [ 124 ]
           }
         },
         "wr_addr_DFFR_Q_5": {
@@ -19557,9 +19440,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 134 ],
+            "D": [ 126 ],
             "Q": [ 71 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_5_D_ALU_SUM": {
@@ -19581,12 +19464,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 135 ],
-            "COUT": [ 133 ],
+            "CIN": [ 127 ],
+            "COUT": [ 125 ],
             "I0": [ 7 ],
             "I1": [ 71 ],
             "I3": [ 17 ],
-            "SUM": [ 134 ]
+            "SUM": [ 126 ]
           }
         },
         "wr_addr_DFFR_Q_6": {
@@ -19606,9 +19489,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 136 ],
+            "D": [ 128 ],
             "Q": [ 72 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_6_D_ALU_SUM": {
@@ -19630,12 +19513,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 137 ],
-            "COUT": [ 135 ],
+            "CIN": [ 129 ],
+            "COUT": [ 127 ],
             "I0": [ 7 ],
             "I1": [ 72 ],
             "I3": [ 17 ],
-            "SUM": [ 136 ]
+            "SUM": [ 128 ]
           }
         },
         "wr_addr_DFFR_Q_6_D_ALU_SUM_CIN_ALU_COUT": {
@@ -19658,11 +19541,11 @@
           },
           "connections": {
             "CIN": [ 7 ],
-            "COUT": [ 137 ],
+            "COUT": [ 129 ],
             "I0": [ 17 ],
             "I1": [ 64 ],
             "I3": [ 17 ],
-            "SUM": [ 138 ]
+            "SUM": [ 130 ]
           }
         },
         "wr_addr_DFFR_Q_7": {
@@ -19682,9 +19565,9 @@
           },
           "connections": {
             "CLK": [ 19 ],
-            "D": [ 139 ],
+            "D": [ 131 ],
             "Q": [ 64 ],
-            "RESET": [ 115 ]
+            "RESET": [ 116 ]
           }
         },
         "wr_addr_DFFR_Q_7_D_LUT1_F": {
@@ -19702,7 +19585,7 @@
             "I0": "input"
           },
           "connections": {
-            "F": [ 139 ],
+            "F": [ 131 ],
             "I0": [ 64 ]
           }
         },
@@ -19725,62 +19608,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 127 ],
-            "COUT": [ 140 ],
+            "CIN": [ 119 ],
+            "COUT": [ 132 ],
             "I0": [ 7 ],
             "I1": [ 66 ],
             "I3": [ 17 ],
-            "SUM": [ 124 ]
-          }
-        },
-        "wr_addr_LUT4_I0": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000000001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:153.41-153.66|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 118 ],
-            "I0": [ 66 ],
-            "I1": [ 67 ],
-            "I2": [ 68 ],
-            "I3": [ 69 ]
-          }
-        },
-        "wr_addr_LUT4_I0_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0001000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
-          },
-          "port_directions": {
-            "F": "output",
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input"
-          },
-          "connections": {
-            "F": [ 119 ],
-            "I0": [ 70 ],
-            "I1": [ 71 ],
-            "I2": [ 72 ],
-            "I3": [ 64 ]
+            "SUM": [ 115 ]
           }
         },
         "wr_data_DFFE_Q": {
@@ -19799,9 +19632,9 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 141 ],
+            "D": [ 133 ],
             "Q": [ 73 ]
           }
         },
@@ -19821,10 +19654,37 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 123 ],
+            "D": [ 134 ],
             "Q": [ 74 ]
+          }
+        },
+        "wr_data_DFFE_Q_1_D_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 135 ],
+            "COUT": [ 136 ],
+            "I0": [ 7 ],
+            "I1": [ 74 ],
+            "I3": [ 17 ],
+            "SUM": [ 134 ]
           }
         },
         "wr_data_DFFE_Q_2": {
@@ -19843,10 +19703,10 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 142 ],
-            "Q": [ 75 ]
+            "D": [ 137 ],
+            "Q": [ 18 ]
           }
         },
         "wr_data_DFFE_Q_2_D_ALU_SUM": {
@@ -19868,12 +19728,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 143 ],
-            "COUT": [ 120 ],
+            "CIN": [ 138 ],
+            "COUT": [ 135 ],
             "I0": [ 7 ],
-            "I1": [ 75 ],
+            "I1": [ 18 ],
             "I3": [ 17 ],
-            "SUM": [ 142 ]
+            "SUM": [ 137 ]
           }
         },
         "wr_data_DFFE_Q_3": {
@@ -19892,10 +19752,10 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 144 ],
-            "Q": [ 76 ]
+            "D": [ 139 ],
+            "Q": [ 75 ]
           }
         },
         "wr_data_DFFE_Q_3_D_ALU_SUM": {
@@ -19917,12 +19777,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 145 ],
-            "COUT": [ 143 ],
+            "CIN": [ 140 ],
+            "COUT": [ 138 ],
             "I0": [ 7 ],
-            "I1": [ 76 ],
+            "I1": [ 75 ],
             "I3": [ 17 ],
-            "SUM": [ 144 ]
+            "SUM": [ 139 ]
           }
         },
         "wr_data_DFFE_Q_4": {
@@ -19941,10 +19801,10 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 146 ],
-            "Q": [ 77 ]
+            "D": [ 141 ],
+            "Q": [ 76 ]
           }
         },
         "wr_data_DFFE_Q_4_D_ALU_SUM": {
@@ -19966,12 +19826,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 147 ],
-            "COUT": [ 145 ],
+            "CIN": [ 142 ],
+            "COUT": [ 140 ],
             "I0": [ 7 ],
-            "I1": [ 77 ],
+            "I1": [ 76 ],
             "I3": [ 17 ],
-            "SUM": [ 146 ]
+            "SUM": [ 141 ]
           }
         },
         "wr_data_DFFE_Q_5": {
@@ -19990,10 +19850,10 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 148 ],
-            "Q": [ 78 ]
+            "D": [ 143 ],
+            "Q": [ 77 ]
           }
         },
         "wr_data_DFFE_Q_5_D_ALU_SUM": {
@@ -20015,15 +19875,64 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 149 ],
-            "COUT": [ 147 ],
+            "CIN": [ 144 ],
+            "COUT": [ 142 ],
+            "I0": [ 7 ],
+            "I1": [ 77 ],
+            "I3": [ 17 ],
+            "SUM": [ 143 ]
+          }
+        },
+        "wr_data_DFFE_Q_6": {
+          "hide_name": 0,
+          "type": "DFFE",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:44.3-52.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:19.7-19.56"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 116 ],
+            "CLK": [ 19 ],
+            "D": [ 145 ],
+            "Q": [ 78 ]
+          }
+        },
+        "wr_data_DFFE_Q_6_D_ALU_SUM": {
+          "hide_name": 0,
+          "type": "ALU",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+          },
+          "port_directions": {
+            "CIN": "input",
+            "COUT": "output",
+            "I0": "input",
+            "I1": "input",
+            "I3": "input",
+            "SUM": "output"
+          },
+          "connections": {
+            "CIN": [ 146 ],
+            "COUT": [ 144 ],
             "I0": [ 7 ],
             "I1": [ 78 ],
             "I3": [ 17 ],
-            "SUM": [ 148 ]
+            "SUM": [ 145 ]
           }
         },
-        "wr_data_DFFE_Q_5_D_ALU_SUM_CIN_ALU_COUT": {
+        "wr_data_DFFE_Q_6_D_ALU_SUM_CIN_ALU_COUT": {
           "hide_name": 0,
           "type": "ALU",
           "parameters": {
@@ -20043,14 +19952,14 @@
           },
           "connections": {
             "CIN": [ 7 ],
-            "COUT": [ 149 ],
+            "COUT": [ 146 ],
             "I0": [ 17 ],
             "I1": [ 79 ],
             "I3": [ 17 ],
-            "SUM": [ 150 ]
+            "SUM": [ 147 ]
           }
         },
-        "wr_data_DFFE_Q_6": {
+        "wr_data_DFFE_Q_7": {
           "hide_name": 0,
           "type": "DFFE",
           "parameters": {
@@ -20066,13 +19975,13 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 115 ],
+            "CE": [ 116 ],
             "CLK": [ 19 ],
-            "D": [ 151 ],
+            "D": [ 148 ],
             "Q": [ 79 ]
           }
         },
-        "wr_data_DFFE_Q_6_D_LUT1_F": {
+        "wr_data_DFFE_Q_7_D_LUT1_F": {
           "hide_name": 0,
           "type": "LUT1",
           "parameters": {
@@ -20087,8 +19996,99 @@
             "I0": "input"
           },
           "connections": {
-            "F": [ 151 ],
+            "F": [ 148 ],
             "I0": [ 79 ]
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:154.14-154.54"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output",
+            "S0": "input"
+          },
+          "connections": {
+            "I0": [ 149 ],
+            "I1": [ 150 ],
+            "O": [ 116 ],
+            "S0": [ 151 ]
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_I0_LUT1_F": {
+          "hide_name": 0,
+          "type": "LUT1",
+          "parameters": {
+            "INIT": "00"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:152.41-152.66|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input"
+          },
+          "connections": {
+            "F": [ 149 ],
+            "I0": [ 7 ]
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_I1_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:153.41-153.66|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 150 ],
+            "I0": [ 66 ],
+            "I1": [ 67 ],
+            "I2": [ 68 ],
+            "I3": [ 69 ]
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_S0_LUT4_F": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0001000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "F": "output",
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input"
+          },
+          "connections": {
+            "F": [ 151 ],
+            "I0": [ 70 ],
+            "I1": [ 71 ],
+            "I2": [ 72 ],
+            "I3": [ 64 ]
           }
         },
         "wr_data_DFFE_Q_D_ALU_SUM": {
@@ -20110,12 +20110,12 @@
             "SUM": "output"
           },
           "connections": {
-            "CIN": [ 122 ],
+            "CIN": [ 136 ],
             "COUT": [ 152 ],
             "I0": [ 7 ],
             "I1": [ 73 ],
             "I3": [ 17 ],
-            "SUM": [ 141 ]
+            "SUM": [ 133 ]
           }
         }
       },
@@ -20193,7 +20193,7 @@
         },
         "mem.0.0_DOB_3": {
           "hide_name": 0,
-          "bits": [ 46, 80, 82 ],
+          "bits": [ 46, 82, 80 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21"
@@ -20463,56 +20463,6 @@
             "src": "main.v:33.13-33.20"
           }
         },
-        "rd_en": {
-          "hide_name": 0,
-          "bits": [ 18 ],
-          "attributes": {
-            "src": "main.v:54.8-54.13"
-          }
-        },
-        "rd_en_DFFE_Q_CE": {
-          "hide_name": 0,
-          "bits": [ 115 ],
-          "attributes": {
-          }
-        },
-        "rd_en_DFFE_Q_CE_MUX2_LUT5_O_I0": {
-          "hide_name": 0,
-          "bits": [ 117 ],
-          "attributes": {
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.9-151.11"
-          }
-        },
-        "rd_en_DFFE_Q_D": {
-          "hide_name": 0,
-          "bits": [ 116 ],
-          "attributes": {
-          }
-        },
-        "rd_en_DFFE_Q_D_ALU_SUM_CIN": {
-          "hide_name": 0,
-          "bits": [ 120 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
-          }
-        },
-        "rd_en_DFFE_Q_D_ALU_SUM_COUT": {
-          "hide_name": 0,
-          "bits": [ 121 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
-          }
-        },
-        "rd_en_DFFE_Q_D_ALU_SUM_COUT_ALU_CIN_COUT": {
-          "hide_name": 0,
-          "bits": [ 122 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
-          }
-        },
         "sys_clk": {
           "hide_name": 0,
           "bits": [ 2 ],
@@ -20535,13 +20485,13 @@
         },
         "wr_addr_DFFR_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 125 ],
+          "bits": [ 117 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_1_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 127 ],
+          "bits": [ 119 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20549,13 +20499,13 @@
         },
         "wr_addr_DFFR_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 128 ],
+          "bits": [ 120 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_2_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 126 ],
+          "bits": [ 118 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20563,13 +20513,13 @@
         },
         "wr_addr_DFFR_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 130 ],
+          "bits": [ 122 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_3_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 129 ],
+          "bits": [ 121 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20577,13 +20527,13 @@
         },
         "wr_addr_DFFR_Q_4_D": {
           "hide_name": 0,
-          "bits": [ 132 ],
+          "bits": [ 124 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_4_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 131 ],
+          "bits": [ 123 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20591,13 +20541,13 @@
         },
         "wr_addr_DFFR_Q_5_D": {
           "hide_name": 0,
-          "bits": [ 134 ],
+          "bits": [ 126 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_5_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 133 ],
+          "bits": [ 125 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20605,13 +20555,13 @@
         },
         "wr_addr_DFFR_Q_6_D": {
           "hide_name": 0,
-          "bits": [ 136 ],
+          "bits": [ 128 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_6_D_ALU_SUM_CIN": {
           "hide_name": 0,
-          "bits": [ 137 ],
+          "bits": [ 129 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20619,14 +20569,14 @@
         },
         "wr_addr_DFFR_Q_6_D_ALU_SUM_CIN_ALU_COUT_SUM": {
           "hide_name": 0,
-          "bits": [ 138 ],
+          "bits": [ 130 ],
           "attributes": {
             "unused_bits": "0 "
           }
         },
         "wr_addr_DFFR_Q_6_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 135 ],
+          "bits": [ 127 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20634,38 +20584,23 @@
         },
         "wr_addr_DFFR_Q_7_D": {
           "hide_name": 0,
-          "bits": [ 139 ],
+          "bits": [ 131 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_D": {
           "hide_name": 0,
-          "bits": [ 124 ],
+          "bits": [ 115 ],
           "attributes": {
           }
         },
         "wr_addr_DFFR_Q_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 140 ],
+          "bits": [ 132 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:50.18-50.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "unused_bits": "0 "
-          }
-        },
-        "wr_addr_LUT4_I0_1_F": {
-          "hide_name": 0,
-          "bits": [ 66, 67, 68, 69, 119 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21"
-          }
-        },
-        "wr_addr_LUT4_I0_F": {
-          "hide_name": 0,
-          "bits": [ 118 ],
-          "attributes": {
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.13-151.15"
           }
         },
         "wr_data": {
@@ -20677,25 +20612,41 @@
         },
         "wr_data_DFFE_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 123 ],
+          "bits": [ 134 ],
           "attributes": {
+          }
+        },
+        "wr_data_DFFE_Q_1_D_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 136 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "wr_data_DFFE_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 142 ],
+          "bits": [ 137 ],
           "attributes": {
+          }
+        },
+        "wr_data_DFFE_Q_2_D_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 135 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "wr_data_DFFE_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 144 ],
+          "bits": [ 139 ],
           "attributes": {
           }
         },
         "wr_data_DFFE_Q_3_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 143 ],
+          "bits": [ 138 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20703,13 +20654,13 @@
         },
         "wr_data_DFFE_Q_4_D": {
           "hide_name": 0,
-          "bits": [ 146 ],
+          "bits": [ 141 ],
           "attributes": {
           }
         },
         "wr_data_DFFE_Q_4_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 145 ],
+          "bits": [ 140 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20717,28 +20668,13 @@
         },
         "wr_data_DFFE_Q_5_D": {
           "hide_name": 0,
-          "bits": [ 148 ],
+          "bits": [ 143 ],
           "attributes": {
-          }
-        },
-        "wr_data_DFFE_Q_5_D_ALU_SUM_CIN": {
-          "hide_name": 0,
-          "bits": [ 149 ],
-          "attributes": {
-            "abc9_carry": "00000000000000000000000000000001",
-            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
-          }
-        },
-        "wr_data_DFFE_Q_5_D_ALU_SUM_CIN_ALU_COUT_SUM": {
-          "hide_name": 0,
-          "bits": [ 150 ],
-          "attributes": {
-            "unused_bits": "0 "
           }
         },
         "wr_data_DFFE_Q_5_D_ALU_SUM_COUT": {
           "hide_name": 0,
-          "bits": [ 147 ],
+          "bits": [ 142 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
@@ -20746,13 +20682,70 @@
         },
         "wr_data_DFFE_Q_6_D": {
           "hide_name": 0,
-          "bits": [ 151 ],
+          "bits": [ 145 ],
           "attributes": {
+          }
+        },
+        "wr_data_DFFE_Q_6_D_ALU_SUM_CIN": {
+          "hide_name": 0,
+          "bits": [ 146 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "wr_data_DFFE_Q_6_D_ALU_SUM_CIN_ALU_COUT_SUM": {
+          "hide_name": 0,
+          "bits": [ 147 ],
+          "attributes": {
+            "unused_bits": "0 "
+          }
+        },
+        "wr_data_DFFE_Q_6_D_ALU_SUM_COUT": {
+          "hide_name": 0,
+          "bits": [ 144 ],
+          "attributes": {
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "main.v:48.18-48.29|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+          }
+        },
+        "wr_data_DFFE_Q_7_D": {
+          "hide_name": 0,
+          "bits": [ 148 ],
+          "attributes": {
+          }
+        },
+        "wr_data_DFFE_Q_CE": {
+          "hide_name": 0,
+          "bits": [ 116 ],
+          "attributes": {
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 149 ],
+          "attributes": {
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 150 ],
+          "attributes": {
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "wr_data_DFFE_Q_CE_MUX2_LUT5_O_S0": {
+          "hide_name": 0,
+          "bits": [ 66, 67, 68, 69, 151 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21"
           }
         },
         "wr_data_DFFE_Q_D": {
           "hide_name": 0,
-          "bits": [ 141 ],
+          "bits": [ 133 ],
           "attributes": {
           }
         },
