@@ -15,10 +15,7 @@ rm -rf _build/tang9k
 mkdir -p _build/tang9k
 
 # Yosys
-#yosys -p "synth_gowin -top main -json _build/tang9k/hardware.json" -q -DSYNTHESIZE main.v pll.v async_fifo.v
-yosys -p "synth_gowin -top main -json _build/tang9k/hardware.json" -DSYNTHESIZE main.v pll.v async_fifo.v
-
-exit 0
+yosys -p "synth_gowin -top main -json _build/tang9k/hardware.json; write_verilog _build/tang9k/yosys-synth.v" -q -DSYNTHESIZE main.v pll.v async_fifo.v
 
 # PNR
 nextpnr-himbaechel --device GW1NR-LV9QN88PC6/I5 --json _build/tang9k/hardware.json --write _build/tang9k/hardware.pnr.json --report _build/tang9k/hardware.pnr --vopt family=GW1N-9C --vopt cst=pinout-tang9k.cst -q --seed 1008

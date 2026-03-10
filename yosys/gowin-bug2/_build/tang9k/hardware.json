@@ -23,7 +23,7 @@
         }
       },
       "cells": {
-        "$specify$1821": {
+        "$specify$1822": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -261,7 +261,7 @@
         }
       },
       "cells": {
-        "$specify$1821": {
+        "$specify$1822": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -332,7 +332,7 @@
         }
       },
       "cells": {
-        "$specify$1821": {
+        "$specify$1822": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -6114,7 +6114,7 @@
         }
       },
       "cells": {
-        "$specify$119": {
+        "$specify$120": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7578,7 +7578,7 @@
         }
       },
       "cells": {
-        "$specify$2": {
+        "$specify$3": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7650,7 +7650,7 @@
         }
       },
       "cells": {
-        "$specify$3": {
+        "$specify$4": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7680,7 +7680,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$4": {
+        "$specify$5": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7763,7 +7763,7 @@
         }
       },
       "cells": {
-        "$specify$5": {
+        "$specify$6": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7793,7 +7793,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$6": {
+        "$specify$7": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7823,7 +7823,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$7": {
+        "$specify$8": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7926,6 +7926,36 @@
             "SRC_DST_PEN": "0",
             "SRC_DST_POL": "0",
             "SRC_WIDTH": "00000000000000000000000000000001",
+            "T_FALL_MAX": "00000000000000000000011000101111",
+            "T_FALL_MIN": "00000000000000000000011000101111",
+            "T_FALL_TYP": "00000000000000000000011000101111",
+            "T_RISE_MAX": "00000000000000000000010000011101",
+            "T_RISE_MIN": "00000000000000000000010000011101",
+            "T_RISE_TYP": "00000000000000000000010000011101"
+          },
+          "attributes": {
+            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:39.3-39.28"
+          },
+          "port_directions": {
+            "DST": "input",
+            "EN": "input",
+            "SRC": "input"
+          },
+          "connections": {
+            "DST": [ 2 ],
+            "EN": [ "1" ],
+            "SRC": [ 4 ]
+          }
+        },
+        "$specify$11": {
+          "hide_name": 1,
+          "type": "$specify2",
+          "parameters": {
+            "DST_WIDTH": "00000000000000000000000000000001",
+            "FULL": "0",
+            "SRC_DST_PEN": "0",
+            "SRC_DST_POL": "0",
+            "SRC_WIDTH": "00000000000000000000000000000001",
             "T_FALL_MAX": "00000000000000000000010010100000",
             "T_FALL_MIN": "00000000000000000000010010100000",
             "T_FALL_TYP": "00000000000000000000010010100000",
@@ -7947,7 +7977,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$11": {
+        "$specify$12": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -7977,7 +8007,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$8": {
+        "$specify$9": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -8005,36 +8035,6 @@
             "DST": [ 2 ],
             "EN": [ "1" ],
             "SRC": [ 3 ]
-          }
-        },
-        "$specify$9": {
-          "hide_name": 1,
-          "type": "$specify2",
-          "parameters": {
-            "DST_WIDTH": "00000000000000000000000000000001",
-            "FULL": "0",
-            "SRC_DST_PEN": "0",
-            "SRC_DST_POL": "0",
-            "SRC_WIDTH": "00000000000000000000000000000001",
-            "T_FALL_MAX": "00000000000000000000011000101111",
-            "T_FALL_MIN": "00000000000000000000011000101111",
-            "T_FALL_TYP": "00000000000000000000011000101111",
-            "T_RISE_MAX": "00000000000000000000010000011101",
-            "T_RISE_MIN": "00000000000000000000010000011101",
-            "T_RISE_TYP": "00000000000000000000010000011101"
-          },
-          "attributes": {
-            "src": "/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:39.3-39.28"
-          },
-          "port_directions": {
-            "DST": "input",
-            "EN": "input",
-            "SRC": "input"
-          },
-          "connections": {
-            "DST": [ 2 ],
-            "EN": [ "1" ],
-            "SRC": [ 4 ]
           }
         }
       },
@@ -9930,7 +9930,7 @@
         }
       },
       "cells": {
-        "$specify$38": {
+        "$specify$39": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -9960,7 +9960,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$39": {
+        "$specify$40": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -9990,7 +9990,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$40": {
+        "$specify$41": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10076,7 +10076,7 @@
         }
       },
       "cells": {
-        "$specify$41": {
+        "$specify$42": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10106,7 +10106,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$42": {
+        "$specify$43": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10136,7 +10136,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$43": {
+        "$specify$44": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10222,7 +10222,7 @@
         }
       },
       "cells": {
-        "$specify$44": {
+        "$specify$45": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10252,7 +10252,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$45": {
+        "$specify$46": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10282,7 +10282,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$46": {
+        "$specify$47": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10368,7 +10368,7 @@
         }
       },
       "cells": {
-        "$specify$47": {
+        "$specify$48": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10398,7 +10398,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$48": {
+        "$specify$49": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10428,7 +10428,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$49": {
+        "$specify$50": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10514,7 +10514,7 @@
         }
       },
       "cells": {
-        "$specify$50": {
+        "$specify$51": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10544,7 +10544,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$51": {
+        "$specify$52": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10574,7 +10574,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$52": {
+        "$specify$53": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10652,7 +10652,7 @@
         }
       },
       "cells": {
-        "$specify$120": {
+        "$specify$121": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13107,7 +13107,7 @@
         }
       },
       "cells": {
-        "$specify$144": {
+        "$specify$145": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13137,7 +13137,7 @@
             "SRC": [ 8, 9, 10, 11 ]
           }
         },
-        "$specify$145": {
+        "$specify$146": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13171,7 +13171,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$146": {
+        "$specify$147": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13205,7 +13205,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$147": {
+        "$specify$148": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13239,7 +13239,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$148": {
+        "$specify$149": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -13358,7 +13358,7 @@
         }
       },
       "cells": {
-        "$specify$149": {
+        "$specify$150": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13388,7 +13388,7 @@
             "SRC": [ 10, 11, 12, 13 ]
           }
         },
-        "$specify$150": {
+        "$specify$151": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13422,7 +13422,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$151": {
+        "$specify$152": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13456,7 +13456,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$152": {
+        "$specify$153": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13490,7 +13490,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$153": {
+        "$specify$154": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -13611,7 +13611,7 @@
         }
       },
       "cells": {
-        "$specify$154": {
+        "$specify$155": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -13641,7 +13641,7 @@
             "SRC": [ 14, 15, 16, 17 ]
           }
         },
-        "$specify$155": {
+        "$specify$156": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13675,7 +13675,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$156": {
+        "$specify$157": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13709,7 +13709,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$157": {
+        "$specify$158": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -13743,7 +13743,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$158": {
+        "$specify$159": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -14341,7 +14341,7 @@
         }
       },
       "cells": {
-        "$specify$159": {
+        "$specify$160": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -14377,7 +14377,7 @@
             "SRC": [ 100 ]
           }
         },
-        "$specify$160": {
+        "$specify$161": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14411,7 +14411,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$161": {
+        "$specify$162": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14445,7 +14445,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$162": {
+        "$specify$163": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14479,7 +14479,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$163": {
+        "$specify$164": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14513,7 +14513,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$164": {
+        "$specify$165": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14547,7 +14547,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$165": {
+        "$specify$166": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14581,7 +14581,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$166": {
+        "$specify$167": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14615,7 +14615,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$167": {
+        "$specify$168": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14649,7 +14649,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$168": {
+        "$specify$169": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14683,7 +14683,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$169": {
+        "$specify$170": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14717,7 +14717,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$170": {
+        "$specify$171": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -14751,7 +14751,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$171": {
+        "$specify$172": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15251,7 +15251,7 @@
         }
       },
       "cells": {
-        "$specify$172": {
+        "$specify$173": {
           "hide_name": 1,
           "type": "$specify3",
           "parameters": {
@@ -15287,7 +15287,7 @@
             "SRC": [ 108 ]
           }
         },
-        "$specify$173": {
+        "$specify$174": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15321,7 +15321,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$174": {
+        "$specify$175": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15355,7 +15355,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$175": {
+        "$specify$176": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15389,7 +15389,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$176": {
+        "$specify$177": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15423,7 +15423,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$177": {
+        "$specify$178": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15457,7 +15457,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$178": {
+        "$specify$179": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15491,7 +15491,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$179": {
+        "$specify$180": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15525,7 +15525,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$180": {
+        "$specify$181": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15559,7 +15559,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$181": {
+        "$specify$182": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15593,7 +15593,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$182": {
+        "$specify$183": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15627,7 +15627,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$183": {
+        "$specify$184": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -15661,7 +15661,7 @@
             "SRC_EN": [ "1" ]
           }
         },
-        "$specify$184": {
+        "$specify$185": {
           "hide_name": 1,
           "type": "$specrule",
           "parameters": {
@@ -16711,7 +16711,7 @@
         }
       },
       "cells": {
-        "$specify$12": {
+        "$specify$13": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16741,7 +16741,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$13": {
+        "$specify$14": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16771,7 +16771,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$14": {
+        "$specify$15": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16801,7 +16801,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$15": {
+        "$specify$16": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16831,7 +16831,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$16": {
+        "$specify$17": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16945,7 +16945,7 @@
         }
       },
       "cells": {
-        "$specify$17": {
+        "$specify$18": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -16975,7 +16975,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$18": {
+        "$specify$19": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17005,7 +17005,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$19": {
+        "$specify$20": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17035,7 +17035,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$20": {
+        "$specify$21": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17065,7 +17065,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$21": {
+        "$specify$22": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17095,7 +17095,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$22": {
+        "$specify$23": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17220,7 +17220,7 @@
         }
       },
       "cells": {
-        "$specify$23": {
+        "$specify$24": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17250,7 +17250,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$24": {
+        "$specify$25": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17280,7 +17280,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$25": {
+        "$specify$26": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17310,7 +17310,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$26": {
+        "$specify$27": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17340,7 +17340,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$27": {
+        "$specify$28": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17370,7 +17370,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$28": {
+        "$specify$29": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17400,7 +17400,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$29": {
+        "$specify$30": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17536,7 +17536,7 @@
         }
       },
       "cells": {
-        "$specify$30": {
+        "$specify$31": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17566,7 +17566,7 @@
             "SRC": [ 3 ]
           }
         },
-        "$specify$31": {
+        "$specify$32": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17596,7 +17596,7 @@
             "SRC": [ 4 ]
           }
         },
-        "$specify$32": {
+        "$specify$33": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17626,7 +17626,7 @@
             "SRC": [ 5 ]
           }
         },
-        "$specify$33": {
+        "$specify$34": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17656,7 +17656,7 @@
             "SRC": [ 6 ]
           }
         },
-        "$specify$34": {
+        "$specify$35": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17686,7 +17686,7 @@
             "SRC": [ 7 ]
           }
         },
-        "$specify$35": {
+        "$specify$36": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17716,7 +17716,7 @@
             "SRC": [ 8 ]
           }
         },
-        "$specify$36": {
+        "$specify$37": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17746,7 +17746,7 @@
             "SRC": [ 9 ]
           }
         },
-        "$specify$37": {
+        "$specify$38": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -17893,7 +17893,7 @@
             "module": "$paramod$3667e01f89b06714b1209b4176304c3944f95ae7\\async_fifo",
             "module_dynports": "00000000000000000000000000000001",
             "module_hdlname": "async_fifo",
-            "module_src": "async_fifo.v:1.1-149.10"
+            "module_src": "async_fifo.v:1.1-157.10"
           },
           "port_directions": {
           },
@@ -18078,7 +18078,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18175,7 +18175,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18222,7 +18222,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18244,7 +18244,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18266,7 +18266,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18313,7 +18313,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18335,7 +18335,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18357,7 +18357,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -18379,7 +18379,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -19370,7 +19370,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19397,7 +19397,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19424,7 +19424,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19451,7 +19451,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19478,7 +19478,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19505,7 +19505,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19532,7 +19532,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19559,7 +19559,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19585,7 +19585,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19609,7 +19609,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19633,7 +19633,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19657,7 +19657,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19681,7 +19681,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19705,7 +19705,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19729,7 +19729,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19753,7 +19753,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19797,7 +19797,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -19823,7 +19823,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19847,7 +19847,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19871,7 +19871,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19895,7 +19895,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19919,7 +19919,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19943,7 +19943,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19967,7 +19967,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -19991,7 +19991,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -20181,7 +20181,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:117.3-125.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+            "src": "async_fifo.v:125.3-133.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
           },
           "port_directions": {
             "CE": "input",
@@ -20205,7 +20205,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20227,7 +20227,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20249,7 +20249,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20271,7 +20271,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20293,7 +20293,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20315,7 +20315,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20337,7 +20337,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20359,7 +20359,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20381,7 +20381,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20403,7 +20403,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -20427,7 +20427,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -20452,7 +20452,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20479,7 +20479,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20506,7 +20506,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20533,7 +20533,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20560,7 +20560,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20587,7 +20587,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20614,7 +20614,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20640,7 +20640,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20662,7 +20662,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20684,7 +20684,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20706,7 +20706,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20887,7 +20887,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20914,7 +20914,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -20940,7 +20940,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -20962,7 +20962,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -21005,7 +21005,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -21092,7 +21092,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -21114,7 +21114,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:64.3-72.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:72.3-80.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22102,7 +22102,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22126,7 +22126,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22150,7 +22150,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22174,7 +22174,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22198,7 +22198,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22222,7 +22222,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22265,7 +22265,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22289,7 +22289,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22334,7 +22334,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22358,7 +22358,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22382,7 +22382,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22427,7 +22427,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22472,7 +22472,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22517,7 +22517,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22562,7 +22562,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:52.3-61.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "async_fifo.v:60.3-69.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "CE": "input",
@@ -22605,7 +22605,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22627,7 +22627,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22649,7 +22649,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22671,7 +22671,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22693,7 +22693,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22715,7 +22715,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22737,7 +22737,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22759,7 +22759,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -22781,7 +22781,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "async_fifo.v:129.3-137.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
+            "src": "async_fifo.v:137.3-145.6|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:91.7-91.59"
           },
           "port_directions": {
             "CLEAR": "input",
@@ -24735,11 +24735,11 @@
         }
       },
       "netnames": {
-        "async_fifo.bin2gray$func$async_fifo.v:74$362.b": {
+        "async_fifo.bin2gray$func$async_fifo.v:82$363.b": {
           "hide_name": 0,
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "hdlname": "async_fifo bin2gray$func$async_fifo.v:74$362.b",
+            "hdlname": "async_fifo bin2gray$func$async_fifo.v:82$363.b",
             "nosync": "00000000000000000000000000000001",
             "src": "async_fifo.v:39.57-39.58"
           }
@@ -24749,7 +24749,7 @@
           "bits": [ 10 ],
           "attributes": {
             "hdlname": "async_fifo data_enable",
-            "src": "async_fifo.v:93.8-93.19"
+            "src": "async_fifo.v:101.8-101.19"
           }
         },
         "async_fifo.data_enable_MUX2_LUT6_O_I0": {
@@ -24880,42 +24880,42 @@
             "src": "async_fifo.v:15.34-15.38"
           }
         },
-        "async_fifo.gray2bin$func$async_fifo.v:146$364.g": {
+        "async_fifo.gray2bin1$func$async_fifo.v:95$364.g": {
           "hide_name": 0,
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "hdlname": "async_fifo gray2bin$func$async_fifo.v:146$364.g",
+            "hdlname": "async_fifo gray2bin1$func$async_fifo.v:95$364.g",
             "nosync": "00000000000000000000000000000001",
-            "src": "async_fifo.v:43.57-43.58"
+            "src": "async_fifo.v:43.58-43.59"
           }
         },
-        "async_fifo.gray2bin$func$async_fifo.v:146$364.i": {
+        "async_fifo.gray2bin1$func$async_fifo.v:95$364.i": {
           "hide_name": 0,
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "signed": 1,
           "attributes": {
-            "hdlname": "async_fifo gray2bin$func$async_fifo.v:146$364.i",
+            "hdlname": "async_fifo gray2bin1$func$async_fifo.v:95$364.i",
             "nosync": "00000000000000000000000000000001",
             "src": "async_fifo.v:44.13-44.14"
           }
         },
-        "async_fifo.gray2bin$func$async_fifo.v:87$363.g": {
+        "async_fifo.gray2bin2$func$async_fifo.v:154$365.g": {
           "hide_name": 0,
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "hdlname": "async_fifo gray2bin$func$async_fifo.v:87$363.g",
+            "hdlname": "async_fifo gray2bin2$func$async_fifo.v:154$365.g",
             "nosync": "00000000000000000000000000000001",
-            "src": "async_fifo.v:43.57-43.58"
+            "src": "async_fifo.v:51.58-51.59"
           }
         },
-        "async_fifo.gray2bin$func$async_fifo.v:87$363.i": {
+        "async_fifo.gray2bin2$func$async_fifo.v:154$365.i": {
           "hide_name": 0,
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "signed": 1,
           "attributes": {
-            "hdlname": "async_fifo gray2bin$func$async_fifo.v:87$363.i",
+            "hdlname": "async_fifo gray2bin2$func$async_fifo.v:154$365.i",
             "nosync": "00000000000000000000000000000001",
-            "src": "async_fifo.v:44.13-44.14"
+            "src": "async_fifo.v:52.13-52.14"
           }
         },
         "async_fifo.mem.0.0_ADA": {
@@ -25132,7 +25132,7 @@
           "bits": [ 63, 64, 65, 66, 67, 68, 69, 70 ],
           "attributes": {
             "hdlname": "async_fifo mem_rd_address",
-            "src": "async_fifo.v:94.25-94.39"
+            "src": "async_fifo.v:102.25-102.39"
           }
         },
         "async_fifo.mem_rd_data": {
@@ -25140,7 +25140,7 @@
           "bits": [ "x", 385, 386, 387, 388, 389, 390, 391 ],
           "attributes": {
             "hdlname": "async_fifo mem_rd_data",
-            "src": "async_fifo.v:95.14-95.25",
+            "src": "async_fifo.v:103.14-103.25",
             "unused_bits": "1 2 3 4 5 6 7"
           }
         },
@@ -25189,7 +25189,7 @@
           "bits": [ 152 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_2_COUT": {
@@ -25197,7 +25197,7 @@
           "bits": [ 155 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_3_COUT": {
@@ -25205,7 +25205,7 @@
           "bits": [ 157 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_4_COUT": {
@@ -25213,7 +25213,7 @@
           "bits": [ 159 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_5_COUT": {
@@ -25221,7 +25221,7 @@
           "bits": [ 161 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_6_COUT": {
@@ -25229,7 +25229,7 @@
           "bits": [ 163 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_7_COUT": {
@@ -25237,7 +25237,7 @@
           "bits": [ 165 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_ALU_I1_7_SUM": {
@@ -25252,7 +25252,7 @@
           "bits": [ 153 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.rd_bin_DFFCE_Q_D": {
@@ -25260,7 +25260,7 @@
           "bits": [ 168, 166, 164, 162, 160, 158, 156, 154, 170 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:34.28-34.29"
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:34.28-34.29"
           }
         },
         "async_fifo.rd_bin_sync": {
@@ -25268,7 +25268,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", 392 ],
           "attributes": {
             "hdlname": "async_fifo rd_bin_sync",
-            "src": "async_fifo.v:87.23-87.34",
+            "src": "async_fifo.v:95.23-95.34",
             "unused_bits": "8"
           }
         },
@@ -25293,7 +25293,7 @@
           "bits": [ 169 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:122.18-122.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29",
+            "src": "async_fifo.v:130.18-130.28|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "unused_bits": "0 "
           }
         },
@@ -25349,7 +25349,7 @@
           "bits": [ 190 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_CIN": {
@@ -25357,7 +25357,7 @@
           "bits": [ 192 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_CIN_ALU_COUT_SUM": {
@@ -25373,7 +25373,7 @@
           "bits": [ 196 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_CIN_ALU_COUT_SUM_ALU_SUM_2_CIN": {
@@ -25381,7 +25381,7 @@
           "bits": [ 200 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_CIN_ALU_COUT_SUM_ALU_SUM_2_CIN_ALU_COUT_SUM": {
@@ -25396,7 +25396,7 @@
           "bits": [ 198 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_CIN_ALU_COUT_SUM_ALU_SUM_COUT": {
@@ -25404,7 +25404,7 @@
           "bits": [ 194 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_CIN_ALU_COUT_SUM": {
@@ -25462,7 +25462,7 @@
           "bits": [ 191 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_COUT_ALU_CIN_COUT": {
@@ -25470,7 +25470,7 @@
           "bits": [ 214 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "async_fifo.wr_bin_DFFRE_Q_1_D_ALU_SUM_COUT_ALU_CIN_SUM": {
@@ -25486,7 +25486,7 @@
           "bits": [ 215 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "async_fifo.v:58.17-58.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29",
+            "src": "async_fifo.v:66.17-66.27|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/user/.apio/packages/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "unused_bits": "0 "
           }
         },
@@ -25817,7 +25817,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", 401 ],
           "attributes": {
             "hdlname": "async_fifo wr_bin_sync",
-            "src": "async_fifo.v:146.23-146.34",
+            "src": "async_fifo.v:154.23-154.34",
             "unused_bits": "8"
           }
         },

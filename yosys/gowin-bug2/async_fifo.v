@@ -17,10 +17,10 @@ module async_fifo #(
     output wire                  almost_empty,
 
     // Probes for testing.
-    output probe_clk,        // 3.375 Mhz
-    output probe_data_en,    // D-reg enable
-    output probe_data_out,   // D-reg output
-    output probe_mem_rd_d0   // Mem read data bit 0
+    output probe_clk,       // 3.375 Mhz
+    output probe_data_en,   // D-reg enable
+    output probe_data_out,  // D-reg output
+    output probe_mem_rd_d0  // Mem read data bit 0
 );
 
   localparam ADDR_WIDTH = $clog2(DEPTH);
@@ -40,11 +40,19 @@ module async_fifo #(
     bin2gray = (b >> 1) ^ b;
   endfunction
 
-  function [ADDR_WIDTH:0] gray2bin(input [ADDR_WIDTH:0] g);
+  function [ADDR_WIDTH:0] gray2bin1(input [ADDR_WIDTH:0] g);
     integer i;
     begin
-      gray2bin[ADDR_WIDTH] = g[ADDR_WIDTH];
-      for (i = ADDR_WIDTH - 1; i >= 0; i = i - 1) gray2bin[i] = gray2bin[i+1] ^ g[i];
+      gray2bin1[ADDR_WIDTH] = g[ADDR_WIDTH];
+      for (i = ADDR_WIDTH - 1; i >= 0; i = i - 1) gray2bin1[i] = gray2bin1[i+1] ^ g[i];
+    end
+  endfunction
+
+  function [ADDR_WIDTH:0] gray2bin2(input [ADDR_WIDTH:0] g);
+    integer i;
+    begin
+      gray2bin2[ADDR_WIDTH] = g[ADDR_WIDTH];
+      for (i = ADDR_WIDTH - 1; i >= 0; i = i - 1) gray2bin2[i] = gray2bin2[i+1] ^ g[i];
     end
   endfunction
 
@@ -84,7 +92,7 @@ module async_fifo #(
   // Gray→binary conversion may glitch if a metastable bit propagates.
   // FULL flag logic remains CDC-safe since it compares Gray-coded pointers.
   // -----------------------------------------------------------------------------
-  wire [ADDR_WIDTH:0] rd_bin_sync = gray2bin(rd_gray_sync2);
+  wire [ADDR_WIDTH:0] rd_bin_sync = gray2bin1(rd_gray_sync2);
   assign almost_full = ((wr_bin - rd_bin_sync) >= (DEPTH - 2));
 
 
@@ -143,7 +151,7 @@ module async_fifo #(
   // Suitable for functional FPGA projects but not ideal for strict CDC-clean
   // ASIC implementations. EMPTY flag logic remains CDC-safe.
   // -----------------------------------------------------------------------------
-  wire [ADDR_WIDTH:0] wr_bin_sync = gray2bin(wr_gray_sync2);
+  wire [ADDR_WIDTH:0] wr_bin_sync = gray2bin2(wr_gray_sync2);
   assign almost_empty = ((wr_bin_sync - rd_bin) <= 2);
 
 endmodule
