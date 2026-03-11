@@ -29,7 +29,11 @@ module main_tb;
       .probe_sync(probe_sync),
       .probe_clk(probe_clk),
       .prob_data_en(prob_data_en),
-      .probe_data_out(probe_data_out)
+      .probe_data_out(probe_data_out),
+      .probe_aux_0(),
+      .probe_aux_1(),
+      .probe_aux_2(),
+      .probe_aux_3()
   );
 
   // Test main

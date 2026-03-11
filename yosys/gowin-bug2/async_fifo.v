@@ -20,7 +20,10 @@ module async_fifo #(
     output probe_clk,       // 3.375 Mhz
     output probe_data_en,   // D-reg enable
     output probe_data_out,  // D-reg output
-    output probe_mem_rd_d0  // Mem read data bit 0
+    output probe_aux_0,     // Auxiliary probe
+    output probe_aux_1,     // Auxiliary probe
+    output probe_aux_2,     // Auxiliary probe
+    output probe_aux_3      // Auxiliary probe
 );
 
   localparam ADDR_WIDTH = $clog2(DEPTH);
@@ -107,11 +110,12 @@ module async_fifo #(
   assign probe_data_en = data_enable;
   assign probe_data_out = dout[0];
 
-  // Option 1: do not export A0, D0. This option exhibits the issue.
-  assign probe_mem_rd_d0 = 1'b0;
-
-  // Option 2: Export A0, D0, as external signals. This option works.
-  // assign probe_mem_rd_d0 = mem_rd_data[0];
+  // Dummy assignments. Patch manually in hardware.json to connect to
+  // desire points without impacting the synthesis.
+  assign probe_aux_0 = wr_clk;
+  assign probe_aux_1 = wr_clk;
+  assign probe_aux_2 = wr_clk;
+  assign probe_aux_3 = wr_clk;
 
   // Read data directly using CURRENT read pointer
   always @(posedge rd_clk) begin

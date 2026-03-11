@@ -7,11 +7,14 @@ module main #(
     input ext_clk,
 
     // Probes for testing.
-    output probe_sync,       // Sync oscilloscope of negative edge
-    output probe_clk,        // D-reg clock (rising edge)
-    output prob_data_en,     // D-reg enable
-    output probe_data_out,   // D-reg output
-    output probe_mem_rd_d0   // Mem read data bit 0
+    output probe_sync,      // Sync oscilloscope of negative edge
+    output probe_clk,       // D-reg clock (rising edge)
+    output prob_data_en,    // D-reg enable
+    output probe_data_out,  // D-reg output
+    output probe_aux_0,     // Auxiliary probe.
+    output probe_aux_1,     // Auxiliary probe.
+    output probe_aux_2,     // Auxiliary probe.
+    output probe_aux_3      // Auxiliary probe.
 );
 
   wire sys_clk;
@@ -100,7 +103,10 @@ module main #(
       .probe_clk(probe_clk),
       .probe_data_en(prob_data_en),
       .probe_data_out(probe_data_out),
-      .probe_mem_rd_d0(probe_mem_rd_d0)
+      .probe_aux_0(probe_aux_0),
+      .probe_aux_1(probe_aux_1),
+      .probe_aux_2(probe_aux_2),
+      .probe_aux_3(probe_aux_3)
   );
 
 
