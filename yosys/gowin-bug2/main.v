@@ -1,7 +1,7 @@
 // Testing writing at full speed to an FTDI sync fifo.
 
 module main #(
-    parameter integer DEPTH = 256,     // Fifo depth
+    parameter integer DEPTH = 1024,     // Fifo depth
     parameter integer DATA_WIDTH = 8   // Fifo width
 ) (
     input ext_clk,
